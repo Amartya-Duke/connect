@@ -1,0 +1,2 @@
+# connect
+This is an android chatting application project which uses GCM (Google Cloud Messaging), PHP and back end database for storing data and authenticating users. Upstream messaging of GCM is implemented which has additional benefits of text delivery and read notifications. This application works like any other social messaging service to send texts, register/login using phone number/userid. The application is also smart enough to let an already registered user search for other users on the platform and send them message.
