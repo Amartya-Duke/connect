@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawer_shadow" 
+    >
+
+<LinearLayout
+    android:id="@+id/linear1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+<RelativeLayout
+    android:id="@+id/re"
+    android:layout_width="match_parent"
+    android:layout_height="88dp" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Add Contact"
+        android:onClick="add_contact" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="Create Group"
+        android:onClick="createGroup" />
+   
+</RelativeLayout>
+</LinearLayout>
+    <ListView
+        android:id="@+id/left_drawer_listView"
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+        android:background="#787977"
+        android:choiceMode="singleChoice"
+        android:layout_below="@+id/linear1"
+        android:layout_above="@+id/frame_below_drawer"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" >
+
+    </ListView>
+    
+
+ <FrameLayout
+        android:id="@+id/frame_below_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+    </FrameLayout>
+</RelativeLayout>

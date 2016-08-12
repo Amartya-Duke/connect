@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nect.connect.SlidingDrawerActivity" >
+
+  
+    <item
+        android:id="@+id/contacts"
+        android:orderInCategory="100"
+        app:showAsAction="withText|ifRoom"
+        android:title="Contact"/>
+
+</menu>

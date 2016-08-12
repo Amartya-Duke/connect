@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nect.connect.SeachActivity" >
+
+     <item
+        android:id="@+id/searchuser"
+        android:title="Search"
+        android:showAsAction="always"
+        android:actionLayout="@layout/search_layout"
+    android:checkable="true"/>
+
+</menu>
